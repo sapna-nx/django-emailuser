@@ -34,7 +34,7 @@ class Migration(migrations.Migration):
                 'verbose_name_plural': 'users',
             },
             managers=[
-                (b'objects', emailuser.models.EmailUserManager()),
+                ('objects', emailuser.models.EmailUserManager()),
             ],
         ),
     ]
